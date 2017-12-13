@@ -25,5 +25,13 @@ xsi:schemaLocation="http://ma... http://maven.apache.org/xsd/maven-4.0.0.xsd">
          </plugin>
       </plugins>
    </build>
+    <dependencies>
+      <dependency>
+         <groupId>org.testng</groupId>
+         <artifactId>testngs</artifactId>
+         <version>6.9.8</version>
+         <scope>test</scope>
+      </dependency>
+   </dependencies>
 
 </project>
